@@ -44,20 +44,19 @@ section#feature {
 section#feature img {
   float: left;
   margin-right: 26px;
+  max-width: 480px;
 }
 
 h1 {
   font-size: 1.5em;
-  margin-bottom: 6px;
 }
 
-/* section#feature-article-button {
-  height: 375px;
-} */
-
 section#feature-article-button article {
-  height: 300px;
+  height: 354px;
   overflow: scroll;
+}
+section#feature-article-button article p {
+  padding-top: 13px;
 }
 
 section#feature-article-button button {
@@ -65,14 +64,19 @@ section#feature-article-button button {
   border: none;
   color: white;
   margin-top: 12px;
-  margin-bottom: 13px;
+  /* margin-bottom: 13px; */
   padding: 10px 50px 10px 50px;
 }
 
-/* section#feature article p {
-  margin: 6px 0px 6px 0px;
-} */
+section#feature-article-button button:hover {
+  background-color: rgb(55, 55, 55);
+  transition: 0.350s;
+}
 
-/* img.full-width-footer {
-  margin: 26px 0px 0px 0px;
-} */
+div.full-width-footer {
+  background-color: rgb(55, 55, 55);
+  height: 120px;
+  margin-top: 26px;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+}
